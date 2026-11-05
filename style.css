@@ -30,3 +30,18 @@ body{
 .bg-9C254D{
     background-color: #9C254D;
 }
+
+.stack-item {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-item {
+    border: 3px solid yellow !important;
+    box-shadow: 0 0 8px yellow;
+}
