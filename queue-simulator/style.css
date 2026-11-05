@@ -1,0 +1,46 @@
+
+body {
+    background-color: #495579;
+}
+
+#queue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    padding: 10px;
+}
+
+.push,
+.pop {
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.queue-item {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.front-item {
+    border: 3px solid yellow !important;
+    box-shadow: 0 0 8px yellow;
+}
+
+.popped {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+#message {
+    margin-top: 10px;
+}
